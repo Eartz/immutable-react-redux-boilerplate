@@ -1,0 +1,26 @@
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.tmp
+~$*
+
+# Mac
+.DS_Store
+._*
+
+# Editeurs
+_notes/
+**/_notes*/
+dwsync.xml
+*.sublime-project
+*.sublime-workspace
+.idea/
+*.bak
+
+# NodeJS
+node_modules/
+npm-debug.log
+
+site/
