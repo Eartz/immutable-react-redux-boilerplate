@@ -18,6 +18,8 @@ var distDir = "./site/lib/js/dist";
 var files = [ // fichiers a watcher
         sourceDir + "actions.js",
         sourceDir + "reducers.js",
+        sourceDir + "mon-module.js",
+        sourceDir + "mon-module.jsx",
         sourceDir + "exports.js"
     ];
 

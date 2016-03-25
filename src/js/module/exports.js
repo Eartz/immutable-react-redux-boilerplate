@@ -1,7 +1,3 @@
-import {
-        MY_ACTION
-} from "./actions.js";
+const MonModule = require("./mon-module.js");
 
-window.test = () => {
-    console.log(MY_ACTION);
-};
+window.MonModule = MonModule;
