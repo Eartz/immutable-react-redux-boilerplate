@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpdoc>
+    <title></title>
+  <parser>
+    <target>./doc/php</target>
+    <extensions>
+        <extension>php</extension>
+        <extension>twig</extension>
+    </extensions>
+  </parser>
+  <transformer>
+    <target>./doc/php</target>
+  </transformer>
+  <transformations>
+  </transformations>
+  <files>
+    <directory>./src/</directory>
+  </files>
+</phpdoc>

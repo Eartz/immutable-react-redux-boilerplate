@@ -1,0 +1,20 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <div id="monmodule">
+        </div>
+        <script src="./dist/js/monmodule.min.js"></script>
+        <script type="text/javascript">
+            (function(window, MonModule){
+                if (typeof MonModule !== "function") {
+                    console.warn("Pas MonModule");
+                    return;
+                }
+                window.monModule = new MonModule({
+                    element: "monmodule"
+                });
+            })(window, window.MonModule);
+        </script>
+    </body>
+</html>

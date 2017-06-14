@@ -1,0 +1,13 @@
+{
+    "name": "monprojet",
+    "description": "",
+    "version": "1.0",
+    "url": "",
+    "logo": "",
+    "options": {
+        "outdir": "./doc/js",
+        "paths": ["./src"],
+        "exclude": "yui,_depot_arko,_notes,_depot,min,i18n,minified,captcha_ressources,tinymce,vendor",
+        "extension": ".js,.jsx"
+    }
+}
